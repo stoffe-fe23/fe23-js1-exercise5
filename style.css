@@ -1,0 +1,45 @@
+.heading-1 {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 4rem;
+  }
+  
+  .heading-2 {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+  }
+
+  .msg-prio-1, .msg-prio-2, .msg-prio-3 {
+    max-width: 10rem;
+    padding: 0.5rem 1.0rem;
+    margin: 0.5rem;
+    text-align: center;
+  }
+
+  .msg-prio-1 {
+    color: red;
+    font-size: 1.2em;
+    background-color: black;
+    font-weight: bold;
+  }
+
+  .msg-prio-2 {
+    color: orange;
+    font-size: 1.1em;
+    padding: 0.5rem 1.0rem;
+    background-color: darkblue;
+    max-width: 10rem;
+  }
+
+  .msg-prio-3 {
+    color: green;
+    font-size: 1.0em;
+    padding: 0.5rem 1.0rem;
+    background-color: lightgray;
+
+  }
