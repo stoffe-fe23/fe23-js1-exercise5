@@ -157,14 +157,6 @@ document.body.appendChild(movieList);
 ////////////////////////////////////////////////////////////////////////////////
 addHeading("h2", "DOM - Rad av kvadrater");
 
-/*
-Rad av kvadrater
-En funktion som tar två argument: amount och color. 
-Funktionen ska skapa lika många kvadrater som amount med bakgrundsfärgen color. 
-Kvadraterna ska ligga bredvid varandra i en rad. 
-Glöm inte att lägga till en margin eller border så att man kan urskilja varje kvadrat. 
-*/
-
 function createSquares(amount, color) {
     const wrapperBox = document.createElement("div");
     wrapperBox.style.display = "flex";
@@ -237,7 +229,7 @@ addHeading("h2", "Utmaning - Grid av kvadrater");
 
 function createSquareGrid(rowCount, colCount) {
     const boxSize = 100;
-    
+
     const wrapperBox = document.createElement("div");
     wrapperBox.style.display = "grid";
     wrapperBox.style.justifyContent = "start";
